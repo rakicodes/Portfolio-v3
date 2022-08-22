@@ -4667,3 +4667,31 @@ input, select, textarea {
 		color: rgba(40, 40, 40, 0.5);
 		text-align: center;
 	}
+
+/* center text */
+.center {
+	text-align: center;
+}
+
+/* tech icons */
+.tech-icons-container {
+	width: 100%;
+}
+.tech-icons {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+.tech-icons li {
+	display: block;
+	width: 33%;
+	height: 50%;
+	text-align: center;
+}
+
+.tech-icons li i {
+	font-size: 5rem;
+}
